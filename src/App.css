@@ -30,6 +30,12 @@
   color: red;
  }
 
+ .nav {
+   display: flex;
+   justify-content: center;
+  
+ }
+
  .welcome-page {
   display: flex;
   flex-direction: column;
