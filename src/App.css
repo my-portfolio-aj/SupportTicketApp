@@ -10,24 +10,133 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    width: 5%;
+    height: 5%;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #0044cc;
+  min-height:15vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: solid 3px red;
 }
+
+ .header-text{
+  margin-right: 1%;
+  color: red;
+ }
+
+ .welcome-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .customer-label, .helper-label{
+   font-size: 2rem;
+   padding: 30px 30px;
+ }
+
+ .customer-btn, .helper-btn{
+   margin-left: 43%;
+   width: 15%;
+   padding: 10px;
+   background-color: #0044cc;
+   color: white;
+   border-radius: 10px;
+   font-weight: bold;
+ }
+
+ .customer-registration{
+  margin-top: 10%;
+ }
+
+  .welcome-title, .reg-title{
+   font-size: 3rem;
+ }
+
+ .registration-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .name-label, .email-label{
+  font-size: 1.5rem;
+  padding: 30px 30px;
+ }
+
+ .input{
+  width: 15%;
+  margin-left: 43%;
+  padding: 10px;
+ }
 
 .App-link {
-  color: #61dafb;
+  color: #0044cc;
 }
 
+.btn_customer, .btn_helper, .btn-account, .btn-reg, .btn-submit{
+  padding: 10px;
+   background-color: #0044cc;
+   color: white;
+   border-radius: 10px;
+   font-weight: bold;
+   margin-top: 10%;
+   padding: 20px 30px;
+   font-size: 1rem;
+}
+
+.btn-submit2{
+  width: 30%;
+  margin-left: 36%;
+  margin-bottom: 10%;
+  margin-top: 5%
+}
+
+.btn-help-reg{
+  margin-left: 20px;
+  padding: 20px 40px;
+}
+
+.get_help, .make_it, .here-to-help{
+  margin-bottom: 5%;
+  font-size: 2.5rem;
+}
+
+.customer-email, .helper-email{
+  margin-top: 15%;
+  padding: 10px 30px;
+}
+
+.reg{
+  display: flex;
+  justify-content: center;
+}
+
+.asterisk{
+  width: 1.5%
+}
+
+.text-box{
+height: 110px;
+width: 393px;
+margin-left: 35%;
+}
+
+.create-ticket{
+  display:flex;
+  flex-direction: column;
+}
+
+.what-going{
+  width: 393px;
+  margin-left: 35%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

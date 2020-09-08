@@ -1,11 +1,10 @@
 import React from "react"
-import ReactDom from "react-dom"
 
-function CustomerRegistration (){
+function HelperRegistration (){
     return(
         <div>
             <form className ="registration-form">
-            <h1>Customer Registration</h1>
+            <h1>Helper Registration</h1>
             <label className = "name-label">First Name</label>
             <input className = "input"
             type = "text"
@@ -28,4 +27,4 @@ function CustomerRegistration (){
         </div>
     )
 }
-export default CustomerRegistration;
+export default HelperRegistration;

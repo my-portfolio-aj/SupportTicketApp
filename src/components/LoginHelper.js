@@ -1,7 +1,6 @@
 import React from "react"
-import ReactDom from "react-dom"
 
-function LoginCustomer(){
+function LoginHelper(){
     return(
         <div>
             <h2 className= "here-to-help">We'er here to help</h2>
@@ -13,4 +12,5 @@ function LoginCustomer(){
         </div>
     )
 }
-export default LoginCustomer;
+export default LoginHelper
+;
